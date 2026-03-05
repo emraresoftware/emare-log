@@ -1,0 +1,521 @@
+[
+  {
+    "id": "emare-asistan",
+    "name": "Emare Asistan",
+    "icon": "🤖",
+    "color": "#6366f1",
+    "description": "Multi-tenant SaaS AI müşteri hizmetleri platformu — WhatsApp/Telegram/Instagram otomasyonu",
+    "status": "production",
+    "tech": [
+      "FastAPI",
+      "Python",
+      "Gemini AI",
+      "WhatsApp Bridge",
+      "Docker",
+      "SQLite"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emareasistan",
+    "memory_file": "/Users/emre/Desktop/Emare/emareasistan/EMAREASISTAN_HAFIZA.md",
+    "server": {
+      "host": "77.92.152.3",
+      "port": 8000,
+      "label": "API"
+    },
+    "local_start_cmd": null,
+    "local_port": null,
+    "category": "SaaS Platform",
+    "url": "http://77.92.152.3:8000",
+    "notes": []
+  },
+  {
+    "id": "emarecloud",
+    "name": "EmareCloud",
+    "icon": "☁️",
+    "color": "#0ea5e9",
+    "description": "Multi-tenant altyapı yönetim paneli — SSH, firewall, LXD, marketplace, Cloudflare",
+    "status": "production",
+    "tech": [
+      "Flask",
+      "Python",
+      "SQLite",
+      "SocketIO",
+      "Paramiko",
+      "xterm.js",
+      "Nginx"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emarecloud",
+    "memory_file": "/Users/emre/Desktop/Emare/emarecloud/Emarecloud hafıza.md",
+    "server": {
+      "host": "185.189.54.104",
+      "port": 80,
+      "label": "Panel"
+    },
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/emarecloud' && source venv/bin/activate && gunicorn -c gunicorn.conf.py app:app",
+    "local_port": 5555,
+    "category": "Infrastructure",
+    "url": "http://185.189.54.104",
+    "notes": []
+  },
+  {
+    "id": "emare-finance",
+    "name": "Emare Finance",
+    "icon": "💰",
+    "color": "#10b981",
+    "description": "Multi-tenant SaaS POS + işletme yönetim yazılımı — e-Fatura, SMS, pazarlama, AI asistan",
+    "status": "production",
+    "tech": [
+      "Laravel 12",
+      "PHP 8.4",
+      "MariaDB",
+      "Tailwind CSS",
+      "Alpine.js"
+    ],
+    "path": "/Users/emre/Desktop/Emare/Emare Finance",
+    "memory_file": "/Users/emre/Desktop/Emare/Emare Finance/docs/emarefinance-hafiza.md",
+    "server": {
+      "host": "77.92.152.3",
+      "port": 3000,
+      "label": "Web"
+    },
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/Emare Finance' && php artisan serve --port=3000",
+    "local_port": 3000,
+    "category": "SaaS Platform",
+    "url": "http://77.92.152.3:3000",
+    "notes": []
+  },
+  {
+    "id": "emare-pos",
+    "name": "Emare POS / Adisyon",
+    "icon": "🍽️",
+    "color": "#f59e0b",
+    "description": "Restoran/kafe için web tabanlı POS + adisyon yönetim sistemi — masa, mutfak, kasa",
+    "status": "development",
+    "tech": [
+      "Laravel 12",
+      "PHP 8.2",
+      "SQLite",
+      "Alpine.js",
+      "Chart.js"
+    ],
+    "path": "/Users/emre/Desktop/adisyon sistemi/pos-system",
+    "memory_file": "/Users/emre/Desktop/Emare/emarepos/emarepos_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/adisyon sistemi/pos-system' && php artisan serve --port=8080",
+    "local_port": 8080,
+    "category": "POS",
+    "url": "http://127.0.0.1:8080",
+    "notes": []
+  },
+  {
+    "id": "emaredesk",
+    "name": "EmareDesk — RemoteView",
+    "icon": "🖥️",
+    "color": "#8b5cf6",
+    "description": "Python + Web tabanlı uzak masaüstü yazılımı — WebSocket ekran akışı, fare/klavye kontrolü",
+    "status": "ready",
+    "tech": [
+      "Python",
+      "WebSocket",
+      "Pillow",
+      "mss",
+      "pyautogui",
+      "Vanilla JS"
+    ],
+    "path": "/Users/emre/Desktop/emare desk/remote-desktop",
+    "memory_file": "/Users/emre/Desktop/Emare/emare desk/emaredesk hafıza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/emare desk/remote-desktop' && python server.py",
+    "local_port": 8080,
+    "category": "Tool",
+    "url": "http://127.0.0.1:8080",
+    "notes": []
+  },
+  {
+    "id": "emaresetup",
+    "name": "EmareSetup",
+    "icon": "🏭",
+    "color": "#ef4444",
+    "description": "AI destekli yazılım fabrikası CLI — doğal dil ile modül üretimi, versiyonlama, filo dağıtımı",
+    "status": "development",
+    "tech": [
+      "Python",
+      "FastAPI",
+      "React 19",
+      "Gemini",
+      "OpenAI",
+      "SQLAlchemy",
+      "Alembic"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emaresetup",
+    "memory_file": "/Users/emre/Desktop/Emare/emaresetup/emaresetup_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/emaresetup' && python main.py",
+    "local_port": 8000,
+    "category": "Infrastructure",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emarehup",
+    "name": "EmareHup",
+    "icon": "🧠",
+    "color": "#ec4899",
+    "description": "Yazılım fabrikası ana üssü + DevM otonom geliştirme platformu (Node.js orchestrator)",
+    "status": "development",
+    "tech": [
+      "Python",
+      "Node.js",
+      "Gemini",
+      "Copilot",
+      "LangGraph"
+    ],
+    "path": "/Users/emre/Desktop/Emare/EmareHup",
+    "memory_file": "/Users/emre/Desktop/Emare/EmareHup/EMARE_HUP_HAFIZA.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/EmareHup' && python main.py",
+    "local_port": null,
+    "category": "Infrastructure",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emarebot",
+    "name": "Emarebot — Kozmopol",
+    "icon": "🛍️",
+    "color": "#14b8a6",
+    "description": "Trendyol kozmetik mağazası müşteri soru yanıtlama masaüstü uygulaması",
+    "status": "production",
+    "tech": [
+      "Python 3.12",
+      "Tkinter",
+      "Trendyol Seller API",
+      "Gemini AI",
+      "difflib"
+    ],
+    "path": "/Users/emre/Desktop/trendyol_bot_kozmo",
+    "memory_file": "/Users/emre/Desktop/Emare/Emarebot/emarebot_hafiza.md",
+    "server": null,
+    "local_start_cmd": "/usr/local/bin/python3.12 /Users/emre/Desktop/trendyol_bot_kozmo/main.py",
+    "local_port": null,
+    "category": "Automation",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emareoracle",
+    "name": "ZeusDB — EmareOracle",
+    "icon": "🗄️",
+    "color": "#f97316",
+    "description": "C dilinde sıfırdan yazılan tam ilişkisel veritabanı motoru — B+Tree, WAL, ACID (5016 satır C)",
+    "status": "development",
+    "tech": [
+      "C (C11)",
+      "B+Tree",
+      "WAL",
+      "ACID",
+      "pthread"
+    ],
+    "path": "/Users/emre/Desktop/oracle",
+    "memory_file": "/Users/emre/Desktop/Emare/oracle/emareoracle_hafiza.md",
+    "server": null,
+    "local_start_cmd": null,
+    "local_port": null,
+    "category": "Core Engine",
+    "url": null,
+    "notes": [
+      "Sıradaki: Lock Manager (src/lock.c) — deadlock detection, row-level locking"
+    ]
+  },
+  {
+    "id": "siberemare",
+    "name": "SiberEmare",
+    "icon": "🛡️",
+    "color": "#64748b",
+    "description": "Otomatik penetrasyon testi raporlama pipeline — LangGraph multi-agent, self-critique, PDF rapor",
+    "status": "development",
+    "tech": [
+      "Python 3.11",
+      "LangGraph",
+      "Claude 3.5 Sonnet",
+      "GPT-4o",
+      "Neo4j",
+      "PGVector"
+    ],
+    "path": "/Users/emre/Desktop/SiberEmare",
+    "memory_file": "/Users/emre/Desktop/Emare/SiberEmare/siberemare hafıza.md",
+    "server": null,
+    "local_start_cmd": "source /Users/emre/Desktop/SiberEmare/.venv/bin/activate && cd /Users/emre/Desktop/SiberEmare/siberemare-multiagent-v2 && python main.py",
+    "local_port": null,
+    "category": "Security",
+    "url": null,
+    "notes": [
+      ".env dosyasına API key'ler doldurulacak"
+    ]
+  },
+  {
+    "id": "emare-log",
+    "name": "Emare Log — LogManager",
+    "icon": "📡",
+    "color": "#3b82f6",
+    "description": "ISS şirketleri için CRM + ERP + NOC paneli — MikroTik, 5651 log, SMS, fatura, teknik servis",
+    "status": "development",
+    "tech": [
+      "Laravel 12",
+      "PHP 8.2",
+      "Bootstrap 5",
+      "Chart.js",
+      "DataTables",
+      "Guzzle"
+    ],
+    "path": "/Users/emre/Desktop/Emare/Emare Log/logmanager",
+    "memory_file": "/Users/emre/Desktop/Emare/Emare Log/EMARE_LOG_HAFIZA.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/Emare Log/logmanager' && php artisan serve --port=8082",
+    "local_port": 8082,
+    "category": "SaaS Platform",
+    "url": "http://127.0.0.1:8082",
+    "notes": []
+  },
+  {
+    "id": "emare-makale",
+    "name": "Emare Makale",
+    "icon": "📝",
+    "color": "#a855f7",
+    "description": "Otomatik Türkçe makale üretim + yönetim + paylaşım — Reddit/HN trend toplayıcı, OpenAI gpt-4o",
+    "status": "production",
+    "tech": [
+      "Python 3.9",
+      "Flask 3.0",
+      "SQLite",
+      "OpenAI gpt-4o",
+      "Alpine.js"
+    ],
+    "path": "/Users/emre/Desktop/makale",
+    "memory_file": "/Users/emre/Desktop/Emare/makale/emaremakale hafıza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/makale' && python3 app.py",
+    "local_port": 5000,
+    "category": "Tool",
+    "url": "http://127.0.0.1:5000",
+    "notes": []
+  },
+  {
+    "id": "yazilim-ekibi",
+    "name": "Hive Coordinator",
+    "icon": "👥",
+    "color": "#22c55e",
+    "description": "9 Milyar düğümlü hiyerarşik yazılım ekibi koordinasyon sistemi — 28/28 test geçti",
+    "status": "ready",
+    "tech": [
+      "Python 3.11",
+      "FastAPI",
+      "PostgreSQL 16",
+      "Redis 7",
+      "Celery",
+      "SQLAlchemy"
+    ],
+    "path": "/Users/emre/Desktop/yazılım ekibi/koordinasyon-sistemi",
+    "memory_file": "/Users/emre/Desktop/Emare/yazılım ekibi/hafıza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/yazılım ekibi/koordinasyon-sistemi' && uvicorn src.api.main:app --reload --port=8001",
+    "local_port": 8001,
+    "category": "Infrastructure",
+    "url": "http://127.0.0.1:8001",
+    "notes": []
+  },
+  {
+    "id": "emare-team",
+    "name": "Emare Team",
+    "icon": "🏢",
+    "color": "#0891b2",
+    "description": "Emare ekibi için iç proje ve görev yönetim uygulaması — SPA, Kanban, akış",
+    "status": "production",
+    "tech": [
+      "Flask",
+      "SQLite",
+      "Vanilla JS",
+      "Tailwind CSS",
+      "Polling"
+    ],
+    "path": "/Users/emre/Desktop/ekip-yonetici",
+    "memory_file": "/Users/emre/Desktop/Emare/emareteam/emare_team_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/ekip-yonetici' && python app.py",
+    "local_port": 5050,
+    "category": "Tool",
+    "url": "http://127.0.0.1:5050",
+    "notes": []
+  },
+  {
+    "id": "emarekatip",
+    "name": "Emare Katip",
+    "icon": "📋",
+    "color": "#f59e0b",
+    "description": "KINGSTON disk veri toplayıcı ve analizcisi — otomatik proje tarama, teknoloji tespiti, rapor üretimi",
+    "status": "ready",
+    "tech": [
+      "Python",
+      "Flask",
+      "pytest",
+      "GitPython"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emarekatip",
+    "memory_file": "/Users/emre/Desktop/Emare/emarekatip/emarekatip_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd /Users/emre/Desktop/Emare/emarekatip && python main.py",
+    "local_port": null,
+    "category": "Tool",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emareulak",
+    "name": "Emare Ulak",
+    "icon": "🔌",
+    "color": "#8b5cf6",
+    "description": "Browser extension + WebSocket server — Chat izleyici ve analiz sistemi",
+    "status": "development",
+    "tech": [
+      "Node.js",
+      "Express.js",
+      "WebSocket",
+      "SQLite",
+      "Chrome Extension"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emareulak",
+    "memory_file": "/Users/emre/Desktop/Emare/emareulak/emareulak_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd /Users/emre/Desktop/Emare/emareulak && node server.js",
+    "local_port": 8080,
+    "category": "Tool",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emareads",
+    "name": "Emare Ads",
+    "icon": "📢",
+    "color": "#f59e0b",
+    "description": "Çok yetenekli tarayıcı eklentisi — AI-powered browser extension",
+    "status": "development",
+    "tech": [
+      "TypeScript",
+      "React",
+      "Chrome Extension API",
+      "FastAPI",
+      "Webpack"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emareads",
+    "memory_file": "/Users/emre/Desktop/Emare/emareads/emareads_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd /Users/emre/Desktop/Emare/emareads && npm run dev",
+    "local_port": null,
+    "category": "Tool",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emareai",
+    "name": "Emare AI",
+    "icon": "🤖",
+    "color": "#8b5cf6",
+    "description": "Kendi yapay zeka motorumuz — LLaMA/Mistral fine-tuning, self-hosted AI",
+    "status": "development",
+    "tech": [
+      "PyTorch",
+      "LLaMA",
+      "Mistral",
+      "FastAPI",
+      "vLLM",
+      "Ollama"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emareai",
+    "memory_file": "/Users/emre/Desktop/Emare/emareai/emareai_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd /Users/emre/Desktop/Emare/emareai && python inference/server.py",
+    "local_port": 8888,
+    "category": "Core Engine",
+    "url": null,
+    "notes": [
+      "Q2 2026: LLaMA 3.1-8B fine-tuning",
+      "Target: Full autonomous AI by 2027"
+    ]
+  },
+  {
+    "id": "emareos",
+    "name": "Emare OS",
+    "icon": "🖥️",
+    "color": "#ef4444",
+    "description": "NeuroKernel — AI-native işletim sistemi, Ring 0 AI çekirdeği, self-optimizing",
+    "status": "development",
+    "tech": [
+      "Rust",
+      "QEMU",
+      "NeuroKernel",
+      "Bare Metal",
+      "AI Scheduler"
+    ],
+    "path": "/Users/emre/Desktop/Emare/Emare os",
+    "memory_file": "/Users/emre/Desktop/Emare/Emare os/emareos_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/Emare os' && cargo build --release",
+    "local_port": null,
+    "category": "Core Engine",
+    "url": null,
+    "notes": [
+      "Bootable kernel çalışıyor",
+      "AI scheduler prototipi geliştiriliyor"
+    ]
+  },
+  {
+    "id": "emarecode",
+    "name": "Emare Code",
+    "icon": "💻",
+    "color": "#06b6d4",
+    "description": "Cross-platform AI kod üretici — Multi-AI failover, doğal dil ile proje üretimi",
+    "status": "production",
+    "tech": [
+      "Python",
+      "FastAPI",
+      "Gemini AI",
+      "OpenAI",
+      "Jinja2",
+      "SQLite"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emare code",
+    "memory_file": "/Users/emre/Desktop/Emare/emare code/emarecode_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd '/Users/emre/Desktop/Emare/emare code' && source venv/bin/activate && python main.py interactive",
+    "local_port": 8000,
+    "category": "Tool",
+    "url": null,
+    "notes": []
+  },
+  {
+    "id": "emarecc",
+    "name": "Emare CC",
+    "icon": "☎️",
+    "color": "#22c55e",
+    "description": "OpenCC Çağrı Merkezi — Asterisk, tahsilat, screen pop, wallboard, AI transkripsiyon",
+    "status": "development",
+    "tech": [
+      "Node.js",
+      "Express.js",
+      "Asterisk",
+      "PostgreSQL",
+      "React",
+      "Docker"
+    ],
+    "path": "/Users/emre/Desktop/Emare/emarecc",
+    "memory_file": "/Users/emre/Desktop/Emare/emarecc/emarecc_hafiza.md",
+    "server": null,
+    "local_start_cmd": "cd /Users/emre/Desktop/Emare/emarecc && ./start.sh",
+    "local_port": 3080,
+    "category": "SaaS Platform",
+    "url": "http://localhost:3080",
+    "notes": [
+      "Frontend: http://localhost:3080",
+      "Backend API: http://localhost:5001"
+    ]
+  }
+]
