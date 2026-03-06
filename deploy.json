@@ -1,0 +1,27 @@
+{
+  "_comment": "EmareCloud Deploy Manifesti — Bu dosya EmareCloud paneli tarafından okunur. Manuel değiştirme.",
+  "slug": "emarelog",
+  "name": "Emare Log",
+  "github_repo": "emraresoftware/emarelog",
+  "branch": "main",
+  "dc": "local",
+  "server_host": "",
+  "server_ssh_port": 22,
+  "remote_path": "/opt/emarelog",
+  "stack": "node-pm2",
+  "port": 8324,
+  "webroot": "/opt/emarelog",
+  "domain": "",
+  "pre_deploy": [],
+  "deploy_commands": [
+    "cd /opt/emarelog",
+    "git pull origin main",
+    "npm install --production",
+    "pm2 restart emarelog || pm2 start npm --name emarelog -- start"
+  ],
+  "restart_command": "pm2 restart emarelog",
+  "health_check_url": "http://localhost:8324",
+  "webhooks_enabled": true,
+  "auto_deploy_on_push": true,
+  "notify_on_fail": true
+}
